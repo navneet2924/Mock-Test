@@ -25,9 +25,9 @@ SECRET_KEY = '@k0#p3kidu)yaaa3u1hplxz)f@^6xiy384*(+n@@s5x#1bx@m5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True   for python manage.py runserver set to true for railway set to false
-DEBUG=False
+DEBUG=True
 #when converting from development to production environment we need to turn Debug to false
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
