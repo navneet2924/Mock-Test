@@ -2,12 +2,14 @@ from django.urls import path,include
 from django.contrib import admin
 from exam import views
 from django.contrib.auth.views import LogoutView,LoginView
+from exam.views import home
 
 urlpatterns = [
        
 
-
+    
     path('admin/', admin.site.urls),
+    path('home/',home),
     path('teacher/',include('teacher.urls')),
     path('student/',include('student.urls')),
     
