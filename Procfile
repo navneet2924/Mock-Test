@@ -1,1 +1,1 @@
-web : gunicorn onlinexam.wsgi --log-file-
+web : gunicorn onlinexam.wsgi
